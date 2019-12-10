@@ -4,6 +4,9 @@ z	Z
 pxpim 	-Pex-px[][0]-px[][1]
 pypim 	-Pey-py[][0]-py[][1]
 pzpim 	Nu/y-Pez-pz[][0]-pz[][1]
+Ppim	sqrt((-Pex-px[][0]-px[][1])*(-Pex-px[][0]-px[][1])+(-Pey-py[][0]-py[][1])*(-Pey-py[][0]-py[][1])+(Nu/y-Pez-pz[][0]-pz[][1])*(Nu/y-Pez-pz[][0]-pz[][1]))
+phipim	TMath::ATan2(-Pey-py[][0]-py[][1],-Pex-px[][0]-px[][1])*TMath::RadToDeg()
+thpim	acos((Nu/y-Pez-pz[][0]-pz[][1])/sqrt((-Pex-px[][0]-px[][1])*(-Pex-px[][0]-px[][1])+(-Pey-py[][0]-py[][1])*(-Pey-py[][0]-py[][1])+(Nu/y-Pez-pz[][0]-pz[][1])*(Nu/y-Pez-pz[][0]-pz[][1])))*TMath::RadToDeg()
 Epim  	Nu+0.93827-e[][0]-e[][1]
 mx2   	Mx2
 x     	Xb
