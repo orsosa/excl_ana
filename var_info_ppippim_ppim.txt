@@ -1,0 +1,14 @@
+#p pi+ pi- :   ppi-(pi+)
+suff:  	ppippim_pip
+z     Z
+pxpip 	-Pex-px[][0]-px[][2]
+pypip 	-Pey-py[][0]-py[][2]
+pzpip 	Nu/y-Pez-pz[][0]-pz[][2]
+Epip  	Nu+0.93827-e[][0]-e[][2]
+mx2   	(W*W+(pdata.e[][0]+pdata.e[][2])*(pdata.e[][0]+pdata.e[][2])-(pdata.px[][0]+pdata.px[][2])*(pdata.px[][0]+pdata.px[][2])-(pdata.py[][0]+pdata.py[][2])*(pdata.py[][0]+pdata.py[][2])-(pdata.pz[][0]+pdata.pz[][2])*(pdata.pz[][0]+pdata.pz[][2])-2*((Nu+0.93827)*(pdata.e[][0]+pdata.e[][2])+Pex*(pdata.px[][0]+pdata.px[][2])+Pey*(pdata.py[][0]+pdata.py[][2])-(Nu/y-Pez)*(pdata.pz[][0]+pdata.pz[][2])))
+x     	Xb
+Q2    	Q2
+tppim   -(-Q2+(pdata.e[][0]+pdata.e[][2])*(pdata.e[][0]+pdata.e[][2])-(pdata.px[][0]+pdata.px[][2])*(pdata.px[][0]+pdata.px[][2])-(pdata.py[][0]+pdata.py[][2])*(pdata.py[][0]+pdata.py[][2])-(pdata.pz[][0]+pdata.pz[][2])*(pdata.pz[][0]+pdata.pz[][2])-2*(Nu*(pdata.e[][0]+pdata.e[][2])+Pex*(px[][0]+px[][2])+Pey*(py[][0]+py[][2])-(Nu/y-Pez)*(pz[][0]+pz[][2])))
+zppim	(e[][0]+e[][2])/Nu
+cut:   zcut	(e[][0]+e[][2])/Nu>0.8
+
